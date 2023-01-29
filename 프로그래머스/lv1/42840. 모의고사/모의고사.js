@@ -6,9 +6,7 @@ function solution(answers) {
     let num1 = answers.filter((answer,i) => answer === answer1[i%5]).length;
     let num2 = answers.filter((answer,i) => answer === answer2[i%8]).length;
     let num3 = answers.filter((answer,i) => answer === answer3[i%10]).length;
-    
     max = Math.max(num1,num2,num3)
-   
     if(max <= num1) {
         result.push(1);
     }
@@ -18,7 +16,5 @@ function solution(answers) {
      if(max <= num3) {
         result.push(3);
     }
-    
     return result
-    
 }
