@@ -1,6 +1,6 @@
 # [level 1] 예산 - 12982 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12982#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12982) 
 
 ### 성능 요약
 
